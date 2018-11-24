@@ -2,7 +2,9 @@
 FROM node:7-onbuild
 
 # set maintainer
-LABEL maintainer "kevin@kevinpina.com"
+LABEL maintainer kevin@kevinpina.com
+
+LABEL Descripcion="Hola Mundo" Autor="Kevin piña" Version="1.0.0"
 
 # set a health check
 HEALTHCHECK --interval=5s \
